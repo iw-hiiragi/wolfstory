@@ -1,0 +1,31 @@
+<div class="modal-header">
+    <h3>処刑投票</h3>
+</div>
+<div class="modal-body"> 
+
+  処刑したい人を選んで下さい。
+
+  <div class="character-select">
+    <div style="display:inline-block; margin:1px;" ng-repeat="p in players | orderBy: 'index': false">
+      <button class="btn-xs" ng-class="{ 'btn-primary': (selectedId == $index) }" popover-title="{{getFullName(p)}}" popover="{{}}" popover-trigger="mouseenter" popover-placement="top" ng-click="setSelectedId($index)">
+        <img ng-src="{{p.icon.url}}">
+      </button>
+    </div>
+  </div>
+  <!--
+  <div class="character-details" ng-if="selectedId != null">
+    <div class="row">
+      <div class="col-sm-2">
+        <img ng-src="{{ characters[selectedId].icon.url }}">
+      </div>
+      <div class="col-sm-10">
+        <h4>{{ getFullName(characters[selectedId]) }}</h4>
+      </div>
+    </div>
+  </div>
+-->
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">投票を確定する</button>
+    <button class="btn btn-warning" ng-click="cancel()">キャンセル</button>
+</div>

@@ -1,0 +1,19 @@
+.wsAlert-modal {
+  margin: 0 auto;
+  padding: 5px;
+}
+.wsAlert-modal > div {
+  max-width: 340px;
+}
+.wsAlert-modal .modal-header {
+  margin: 0;
+  padding: 7px 12px;
+}
+.wsAlert-modal .modal-body {
+  margin: 0;
+  padding: 15px 10px 40px 12px;
+}
+.wsAlert-modal .modal-footer {
+  margin: 0;
+  padding: 7px 20px;
+}

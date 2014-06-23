@@ -1,0 +1,32 @@
+.float-left {
+  float: left;
+}
+.width-100p {
+  width: 100%;
+}
+.modal-body .character-select {
+  overflow-y: scroll;
+}
+@media screen and (min-width: 768px) {
+  .modal-body .character-select {
+    max-height: 240px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal-body .character-select {
+    max-height: 160px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal-body .character-select img {
+    max-width: 74px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal-body .character-select img {
+    max-width: 50px;
+  }
+}
+.modal-body .character-details {
+  margin-top: 10px;
+}

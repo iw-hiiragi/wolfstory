@@ -1,0 +1,141 @@
+
+◆ 大前提
+
+配信されるデータは、おおまかに
+vil.info, player.info, message(message/announce/info)の３種類のみ
+すべてのデータはMessageモデルに集約されていて、
+ビジネスロジックをのそけばmessageが全てという形をとる
+
+・再現
+最終的な目標として、「全視点で再現可能であること」が挙げられる。
+⇛ 順番に再生すること自体はさして難しくない
+  重要なのは、その際にアクセスできる情報が何か、をログから取得できること
+
+・再現次のMessageへのアクセス
+適宜、フルのplayersが保存されていれば問題なく動く・・・
+フルのvilへアクセスする必要はないだろう
+別途保存される、voted... 以外のplayersのアップデートは、２種類の関数にのみよると定義されているのだから
+その２種類の関数が実行された際にのみ、hiddenプロパティでplayersを保存してやればよいのだ
+
+・再現時のビューへのアクセス
+ビューというのはプレイヤー表示のことだ
+だが、これは適切にplayersが保存されてさえいればちぐはぐになることはなさそうだ
+vote/unvote等もその通りに従えばよい
+
+ビューは（ゲーム時も）全て、vil.info/players.info/infoによって構成されるのだから
+保存はこれらに注目していれば良いだけだ
+
+△結論
+vil.update, vil.updatePlayer, vil.updateVillage 以外の関数がplayersやvil.infoを保存する必要はない
+
+
+◆ データのやりとりの流れ
+
+書き込みが起こる
+↓
+ブロードキャスト
+everyoneの品であればそのまま送る
+hiddenの品であればhiddenの旨を伝える
+それ以外の場合はstepのみ送りリクエスト請求を促す
+↓
+everyone、hidden(permission denied)である全てのデータを一時インベントリに格納する
+↓
+それ以外のデータがあるならばリクエストを出す。無いならばコールバックを呼ぶ。
+↓
+リクエストを受信する。全てのデータをインベントリに格納する。コールバックを呼ぶ。
+↓
+ここからコールバック内：info確認ループを回す。必要であればビューにイベントを投げる。
+↓
+コールバックは一時インベントリのmessagesを（ビューモデルか本インベントリに）バインドする。
+
+
+
+・wolfやmaisonなどのグループを除けば、メッセージはアクセスPID管理、アナウンスはSID管理が無難である
+
+voted/unvoted,ready/unready,timeUpdate 以外のplayer.infoの変更は
+原則として、vil.update/vil.updatePlayerでしか起こらない
+updatePlayerは、村開始前に自由にplayerを変更するためのもので、退村処理などもここで行う
+
+
+
+・ソケット通信ゲームフロー
+
+1.  アクセスがある、"user.name"に応じて"pid"が発行される。このpidは不変です。
+    サーバーサイドではpidを基に処理を行います。しかしながら、通信でpidを投げるのは(改ざんの問題で)危険なので、
+    handshake.user.name を getPlayerIdByUserName すること
+
+2. client側からリクエストを送信すると、
+
+◆ 構造設計 (確定版)
+
+・Messageモデル
+  モデルの詳細な情報はMessage.jsに記入済。
+
+  1.stepの取り扱いについて
+    順番の前後がありうるstepだが、addLogロジックを十分に設計した上で起こる順番の前後は
+    「気に留めない」ことで解決する。クライアント側のViewModelがあとから変更されても、
+    ViewModelに対するフィルターがすでに変わっていればさして問題ないし、そうでなくても気づかない。
+
+  2.uiでは先にinfoのみをクロールしてイベントを処理、
+    その後にmsgの適応へ
+
+
+player.status、player.infoについての明確な解を書いておく
+
+
+
+１．player.statusは、変更時にsystem infoとして保存される、ブロードキャストはされない(step *** permission deniedとかでいい)
+
+２．player.statusは、player配信時のバリデートによって削除される
+
+３．そのバリデートに次のルーチンを含むことで全て解決する
+４．status id が　必要である　のね sidでいいか？ うーん
+    jobにしてもいいか
+
+      player[i].infoMap = {
+        "gm": {
+          "job": p.jobName, "uid": p.uid
+          },
+        "sid42": {
+          "daring": true
+          },
+        "sid66": {
+          "fortuneResult": "wolf",
+          "fortuneDay": 3
+          },
+        "sid12": {
+          "jobFortuneResult": "村人"
+          }, 
+        "spirit": {
+          "spiritResult": "wolf",
+        },
+      }
+
+      function addInfo (targetPid, clientGroups, clientPid) {
+        var t = this.players[targetPid];
+        var c = this.players[clientPid];
+
+        var retMap = {};
+
+        for(i=0;i<clientGroups.length;i++){
+          var key = clientGroups[i];
+          if (key in t.infoMap) {
+            
+            vat token = t.infoMap[key];
+            if (token.indexOf('=') !== -1) {
+              var tokens = token.split('=');
+              if (!(tokens[0] in retMap)) {
+                if (tokens[1].indexOf('__int__') !== -1) {
+                  retMap[tokens[0]] = parseInt(tokens[1].replace(/__int__/, ''), 10);
+                }
+                else {
+                  retMap[tokens[0]] = tokens[1];
+                }
+              }
+            }
+            else if (!(token in retMap)) retMap[token] = true;
+            
+          }
+        }
+      
+      }

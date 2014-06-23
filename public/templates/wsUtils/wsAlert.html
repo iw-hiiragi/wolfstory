@@ -1,0 +1,9 @@
+<div class="modal-header">
+    <strong>{{ str.title }}</strong>
+</div>
+<div class="modal-body" ng-bind-html="str.content">
+</div>
+<div class="modal-footer">
+    <button class="btn-xs btn-primary" ng-click="ok()">{{ str.ok }}</button>
+    <button ng-if="str.cancel" class="btn-xs btn-warning" ng-click="cancel()">{{ str.cancel }}</button>
+</div>

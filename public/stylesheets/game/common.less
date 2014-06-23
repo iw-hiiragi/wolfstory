@@ -1,0 +1,35 @@
+@_lg: 1200px;
+@_md: 992px;
+@_sm: 768px;
+
+@icon-max-width: 74px;
+
+.float-left {float:left;}
+
+.width-100p {width:100%;}
+
+.modal-body {
+  .character-select {
+    @media screen and (min-width: @_sm) {
+      max-height: 80*3px;
+    } 
+    @media screen and (max-width: (@_sm - 1)) {
+      max-height: 80*2px;
+    }
+    
+    overflow-y: scroll;
+
+    img {
+      @media screen and (min-width: @_sm) {
+        max-width: @icon-max-width;
+      }
+      @media screen and (max-width:(@_sm - 1)) {
+        max-width: 50px; 
+      }
+    }
+  }
+
+  .character-details {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+body.ons {
+  padding: 50px;
+}
+a {
+  cursor: pointer;
+}
+#index-wrapper {
+  margin: 10px;
+}
+.childPadding5 > div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

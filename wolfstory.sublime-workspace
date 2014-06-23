@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coo",
+				"cookieParser"
+			],
+			[
+				"next",
+				"next"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"pass",
+				"pass"
+			],
+			[
+				"u",
+				"UserSchema"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"Skill",
+				"SkillSchema"
+			],
+			[
+				"crea",
+				"createDone_"
+			],
+			[
+				"status",
+				"status"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"schema",
+				"schema"
+			],
+			[
+				"get",
+				"getPermission"
+			],
+			[
+				"cla",
+				"classType"
+			],
+			[
+				"MESSAGE",
+				"MessageSchema"
+			],
+			[
+				"reffer",
+				"refferLogs"
+			],
+			[
+				"date",
+				"date"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 3679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "socket.js",
+			"settings":
+			{
+				"buffer_size": 3404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/db.js",
+			"settings":
+			{
+				"buffer_size": 1151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/Village.js",
+			"settings":
+			{
+				"buffer_size": 5742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/game/normal.jade",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: dele",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/views/layout.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/models/User.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/routes/route-user.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/views/user/login.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/lib/externs.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/routes/index.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/lib/settings.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/models/Message.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/models/Counter.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/views/user-login.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/wolfstory.sublime-project",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/app.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/package.json",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/models/db.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/connect/node_modules/serve-static/node_modules/send/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bench/util.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/lib/util.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongoose/node_modules/mquery/test/utils.test.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongoose/node_modules/mongodb/lib/mongodb/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/node_modules/socket.io-client/test/util.test.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongoose/node_modules/mquery/test/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongoose/node_modules/mquery/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/express/node_modules/send/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/express/node_modules/connect/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/node_modules/socket.io-client/lib/util.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/node_modules/redis/lib/util.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongodb/lib/mongodb/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/passport-local/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/mongoose/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/jade/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/express/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/connect/lib/utils.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/socket.io/lib/util.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/crypt3/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/node_modules/less-middleware/node_modules/less/build/build.yml",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/wolfstory/lib/cryptmd5.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/routes/route-user.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/app.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/error-notfound.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/layout.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/public/stylesheets/style.css",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/vil-entry.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/user-login.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/vil-edit.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/index.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/models/Village.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/routes/route-vil.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/routes/index.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/models/user.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/lib/settings.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/models/db.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/views/vil/list.jade",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/controllers/vil.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/jinro/package.json",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/werewolf/models/Player.js",
+		"/Users/hiiragi/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/hiiragi/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/werewolf/werewolf.sublime-project",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/werewolf/models/PlayerSchema.js",
+		"/Users/hiiragi/vagrant/CentOS64_01/nodejs/werewolf/document.txt",
+		"/Users/hiiragi/Documents/test_c/test.c",
+		"/Users/hiiragi/Documents/test.c",
+		"/Users/hiiragi/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/hiiragi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SessionMongoose",
+			"util",
+			"li",
+			"one",
+			"cryptmd5",
+			"[0-9]人",
+			"([0-9])人",
+			"人",
+			"spinner05",
+			"werewolf",
+			"getskill",
+			"skillid",
+			"counters",
+			"count",
+			"counters",
+			"// staticsに追加したメソッドは、クラスメソッドのような感覚で使える。\n",
+			"CounterSchema",
+			"reffer",
+			"log"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2741,
+								2741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1253.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "socket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/db.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "models/Village.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5046,
+								5046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2975.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/game/normal.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wolfstory.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"util",
+				"lib/utils.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,24 @@
+<div class="modal-header">
+    <h3>役職実行</h3>
+</div>
+<div class="modal-body"> 
+
+  <div class="description">
+    {{ description }}
+  </div>
+  
+    <div class="character-select" ng-repeat="targetList in targetLists" ng-init="listIndex = $index">
+      <div style="display:inline-block; margin:1px;" 
+        ng-repeat="t in targetList | orderBy: 'index': false"
+      >
+        <button class="btn-xs" ng-class="{ 'btn-primary': (selectedIds[listIndex] == $index) }" popover-title="{{getFullName(t)}}" popover="{{}}" popover-trigger="mouseenter" popover-placement="top" ng-click="select(listIndex, $index)">
+          <img ng-src="{{t.icon.url}}">
+        </button>
+      </div>
+    </div>
+
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">役職を確定する</button>
+    <button class="btn btn-warning" ng-click="cancel()">キャンセル</button>
+</div>

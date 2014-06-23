@@ -1,0 +1,272 @@
+/* bootstrap fixing */
+a.p {
+  cursor: pointer;
+}
+body {
+  background: #000000;
+}
+#wrapper {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 1200px;
+}
+.clearfix {
+  clear: both;
+}
+.rest-time {
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .common-side-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .common-side-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*
+  発言カラム用のスタイル
+*/
+.fixtop {
+  padding-top: 20px;
+  min-height: 170px;
+}
+@media screen and (min-width: 768px) {
+  .fixtop {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fixtop {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.fixtop .wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.fixtop .wrapper .write-box {
+  padding: 15px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  background: #fff;
+}
+.fixtop .wrapper .write-box textarea {
+  width: 100%;
+  height: 72px;
+  resize: vertical;
+}
+.fixtop-dummy {
+  padding-top: 170px;
+}
+/*
+  プレイヤー一覧用のスタイル
+*/
+.players {
+  /* 縦表示の際は */
+  /* プレイヤーセル */
+}
+@media screen and (max-width: 767px) {
+  .players {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.players .p-head > div {
+  background: #fff;
+  margin-bottom: 3px;
+  padding: 2px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+.players .p-body {
+  /* wrapper */
+}
+.players .p-body > div {
+  /* セル共通の設定 */
+}
+.players .p-body > div .common {
+  background: #666;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  /* bootstrap .row は 左右に 15px */
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-bottom: 3px;
+  min-height: 50px;
+}
+.players .p-body > div .common > div:first-child img {
+  max-width: 40px;
+  float: left;
+}
+.players .p-body > div .common > div:first-child span {
+  display: block;
+}
+.players .p-body > div > div:first-child {
+  background: #666;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  /* bootstrap .row は 左右に 15px */
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-bottom: 3px;
+  min-height: 50px;
+  background: #fff;
+}
+.players .p-body > div > div:first-child > div:first-child img {
+  max-width: 40px;
+  float: left;
+}
+.players .p-body > div > div:first-child > div:first-child span {
+  display: block;
+}
+.players .p-body > div > div:last-child {
+  background: #666;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  /* bootstrap .row は 左右に 15px */
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-bottom: 3px;
+  min-height: 50px;
+}
+.players .p-body > div > div:last-child > div:first-child img {
+  max-width: 40px;
+  float: left;
+}
+.players .p-body > div > div:last-child > div:first-child span {
+  display: block;
+}
+/*
+  メッセージ表示用のスタイル
+*/
+@media screen and (min-width: 992px) {
+  .messages {
+    padding-left: 45px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .messages {
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+}
+.message {
+  margin: 0;
+  margin-left: 55px;
+  margin-bottom: 10px;
+  /*
+  // アニメーショ
+  &.ng-enter {
+    .transition(ease-in 0.5s all);
+    max-height: 0;
+    opacity: 0.3;
+  }
+  &.ng-enter-active {
+    max-height: @message-max-height;
+    opacity: 1;
+  }*/
+}
+.message .icon {
+  float: left;
+  margin-left: -55px;
+}
+.message .icon img {
+  max-width: 50px;
+}
+.message .header {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-left: 1px;
+  color: #aaa;
+  font-size: 85%;
+}
+.message .header > strong {
+  font-size: 110%;
+  font-weight: 400;
+}
+.message .baloon {
+  position: relative;
+  margin-left: 8px;
+  width: 100%;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 8px 11px;
+}
+.message .baloon .content {
+  max-height: 684px;
+  overflow: hidden;
+  color: inherit;
+}
+.message .baloon:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: -8px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-color: black;
+  border-right-color: inherit;
+  border-left-width: 0;
+}
+.message .say {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+.message .lover {
+  background-color: #FFB6C1;
+  border-color: #FFB6C1;
+  color: #000;
+}
+.message .wolf,
+.message .howl {
+  background-color: #ff7777;
+  border-color: #ff7777;
+  color: #000;
+}
+.message .spectator {
+  background-color: #6d969c;
+  border-color: #6d969c;
+  color: #000;
+}
+.message .think {
+  background-color: #939393;
+  border-color: #939393;
+  color: #000;
+}
+.announce {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.announce > div {
+  padding: 2px 10px;
+  border: solid 1px #445;
+  color: #fff;
+}
+.announce .wolf {
+  color: #b66;
+}
+.announce .folk {
+  color: #69b;
+}
+.comingout {
+  font-size: 105%;
+  color: #3104B4 !important;
+  font-weight: 700;
+}

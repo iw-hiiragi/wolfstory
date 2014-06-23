@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ja" ng-app="WolfStory">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"-->
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/wsUtils.css">
+  <link rel="stylesheet" href="/stylesheets/game/common.css">
+  <link rel="stylesheet" href="/stylesheets/game/normal.css">
+</head>
+<body ng-controller='GameWindowController'>
+<section ng-if="gameScene=='loading'||gameScene=='error'">
+  <div style="position: fixed; left:0;right:0;top:0;bottom:0; width: 100%; height: 100%; background: #CCC;">
+    <div style="width: 400px; margin: 0 auto; margin-top: 30px;">
+    now loading;
+    </div>
+  </div>
+</section>
+<section ng-if="gameScene=='main'">
+  <div class="container" id="wrapper">  
+    <div class="navbar-fixed-top fixtop">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-5">
+            <div ng-controller="InfoController">
+              {{ getCurrentDay() }} 日目 {{ showPeriod() }}
+            </div>
+            <div ng-controller="TimeController">
+              <div class="rest-time">{{ getRestTimeSec() }}</div>
+            </div>
+          </div>
+          <div class="col-md-7">
+
+            <div class="write-box" ng-controller="MessageFormController">
+                  <div class="row" style="padding-bottom:7.5px">
+                    <div class="col-xs-12">
+                      <textarea class="form-control" name="content" placeholder="ここに発言内容を入力してください。" ng-model="content" ng-disabled="isTextareaDisabled">
+                      </textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-7 col-sm-9">
+                      <div ng-if="selfInfo.messageOptions.length > 0" class="btn-group" id="btnOption">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                          {{ (selectedOption && selectedOption.jName) || selfInfo.messageOptions[0].jName }} <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li ng-repeat="o in selfInfo.messageOptions"><a class="p" ng-click="selectOption(o)">{{ o.jName }}</a></li>
+                        </ul>
+                      </div>
+
+                      <span ng-controller="ConfigModalController">
+                        <button class="btn btn-sm btn-info" ng-click="openModal()">
+                          <i class="glyphicon glyphicon-cog"></i>
+                          <span class="hidden-xs">&nbsp;オプション</span>
+                        </button>
+                      </span>
+
+                      <span ng-controller="EntryModalController">
+                        <button ng-click="openModal()">入村</button>
+                      </span>
+
+                      <span ng-controller="LeaveModalController">
+                        <button ng-click="openModal()">退村</button>
+                      </span>
+
+                      <span ng-controller="VoteModalController">
+                        <button ng-click="openModal()">投票</button>
+                      </span>
+
+                      <span ng-controller="TargetModalController">
+                        <button ng-click="openModal()">役職実行</button>
+                      </span>
+
+                    </div>
+                    <div class="col-xs-5 col-sm-3 pull-right">
+                      <input type="submit" class="form-control btn btn-success" ng-click="sendMessage()" value="発言 / 更新">
+                    </div>
+                  </div>
+            </div>
+          </div>     
+        </div>
+      </div>
+    </div>
+
+    <div class="row fixtop-dummy">
+    </div>
+
+    <div class="row">
+      
+      <div class="col-md-4" ng-controller="PlayerController">
+        <div class="players">
+
+          <div ng-repeat="type in getConditionTypes()">
+            
+            <div class="row p-head">
+              <div class="col-xs-12">
+                {{ getTitle(type) }} {{ getPlayers(type).length }}人
+              </div>
+            </div>
+
+            <div  class="row p-body">
+              <div ng-repeat="p in getPlayers(type) | orderBy: 'index': false">
+                <div class="col-xs-6">
+                  <img ng-src="{{ p.icon.url }}">
+                  <span class="name">{{ getFullName(p) }}</span>
+                  <span class="last-update">{{ p.lastUpdate | date: 'HH:mm:ss' }}</span>
+                  <span class="jobNameJ">{{ p.status.jobNameJ }}</span>
+                  <span class="vote">{{ p.condition.voted ? '投票済' : '' }}</span>
+                  <span class="clearfix"></span>
+                </div>
+              </div>
+            </div><!-- repeat -->
+
+          </div>
+        </div><!-- players -->
+      </div><!-- col PlayerController -->
+          
+
+
+      <div class="col-md-8" ng-controller="MessageController">
+        <div class="messages">
+          <div ng-repeat="msg in getMessages() | filter:isValidMessage | orderBy: 'step': true">
+
+            <div ng-if="msg.type=='message'" class="message">
+              <div class="icon">
+                <img ng-if="isValidIcon(msg.iconUrl)" ng-src="{{ msg.iconUrl }}">
+              </div>
+              <div class="header">
+                <span ng-if="msg.classType!='howl'">{{ msg.classCount }} </span>
+                <strong>{{ getFullName(msg) }}</strong> at {{ msg.date | date:'HH:mm:ss' }}
+              </div>
+              <div class="baloon {{ msg.classType }}">
+                <div class="content {{ msg.messageOption }}" ng-bind-html="msg.content">
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div ng-if="msg.type=='announce'" class="announce">
+              <div class="{{ msg.classType }}" ng-bind-html="msg.content">
+              </div>
+            </div>
+
+          </div><!-- repeat -->
+        </div><!-- messages -->
+      </div><!-- col MessageController -->
+
+    </div><!-- row -->
+  
+  </div><!-- container -->
+</section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-animate.min.js"></script>
+  <script src="/javascripts/ui-bootstrap.min.js"></script>
+  <script src="/javascripts/wsUtils.js"></script>
+  <script src="/javascripts/game/core-socket.js"></script>
+  <script src="/javascripts/game/village.js"></script>
+  <script src="/javascripts/game/ws-default.js"></script>
+  <script src="/javascripts/game/ws-modals.js"></script>  
+</body>
+</html>

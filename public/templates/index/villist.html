@@ -1,0 +1,16 @@
+<div ng-init="ajaxGetActiveVillages();">
+  <h1> Active Village list </h1>
+
+  <ul>
+    <li ng-show="!nowLoading && activeVillages.length > 0" ng-repeat="vil in activeVillages">
+      {{ vil.name }} {{ vil.timeStamps.created | date:'yy/MM/dd HH:mm:ss' }}
+      <button class="btn-xs" ng-click="enter(vil.vid)">参加</button>
+    </li>
+    <li ng-show="!nowloading && !activeVillages.length">
+      現在募集中の村はありません。
+    </li>
+    <li ng-show="(nowLoading)">
+      読み込み中。。。
+    </li>
+  </ul>
+</div>

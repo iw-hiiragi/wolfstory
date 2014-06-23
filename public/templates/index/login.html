@@ -1,0 +1,31 @@
+<div ng-show="(!login)" ng-init="loginFrom={createUser:false}">
+
+  <div class="warning" ng-show="(flashError.length>0)">
+  {{flashError}}
+  </div>
+
+  <form action="{{ loginForm.createUser && '/user/new' || '/user/login' }}" method="post" id="login-form">
+    <div class="form-group">
+      <label for="userid">ユーザーID</label>
+      <input type="name" name="userid" id="userid" placeholder="ユーザーID">
+    </div>
+    <div class="form-group">
+      <label for="password">パスワード</label>
+      <input type="password" name="password" id="password" placeholder="パスワード">
+    </div>
+    <div class="formgroup with-new" ng-show="loginForm.createUser">
+      <label for="confirm">パスワード(確認)</label>
+      <input type="password" name="confirm" id="confirm" placeholder="パスワード(確認)">
+    </div> 
+    <div class="form-group">
+      <label for="new">新規ID登録</label>
+      <input type="checkbox" id="new" ng-model="loginForm.createUser">
+    </div>
+    <div class="form-group">
+      <input type="submit" value="ログイン">
+    </div>
+  </form>
+</div>
+<div ng-show="(login)">
+  すでにログインしています
+</div>

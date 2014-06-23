@@ -1,0 +1,2560 @@
+[
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.124Z",
+		"step": 1,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 1,
+		"content": "人狼、それは人のふりをすることができる伝説の狼。\nその人狼がこの村に紛れ込んでいるという噂がどこからともなく広がりました。\n村人達は半信半疑ながらも、集会所に集まって話し合いをすることにしました。",
+		"_id": "53799787cebd2f9d0ed536bd",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 7,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female17.png",
+		"date": "2014-05-19T05:32:55.138Z",
+		"step": 15,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 7,
+		"messageOption": "normal",
+		"content": "この村の人狼退治といえば私さ！",
+		"_id": "53799787cebd2f9d0ed536cb",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "踊り子",
+			"last": "フローレンス",
+			"full": "踊り子 フローレンス"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 9,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female33.png",
+		"date": "2014-05-19T05:32:55.143Z",
+		"step": 19,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 9,
+		"messageOption": "normal",
+		"content": "人狼…？本当にいるんでしょうか…？",
+		"_id": "53799787cebd2f9d0ed536cf",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "三等兵",
+			"last": "リルム",
+			"full": "三等兵 リルム"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 10,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female36.png",
+		"date": "2014-05-19T05:32:55.144Z",
+		"step": 21,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 10,
+		"messageOption": "normal",
+		"content": "あ？人狼なんているわけねぇから。",
+		"_id": "53799787cebd2f9d0ed536d1",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "司書見習い",
+			"last": "アン",
+			"full": "司書見習い アン"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 11,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female37.png",
+		"date": "2014-05-19T05:32:55.146Z",
+		"step": 23,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 11,
+		"messageOption": "normal",
+		"content": "人狼なんていないよ！ぷんぷん",
+		"_id": "53799787cebd2f9d0ed536d3",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "保母",
+			"last": "ミズリ",
+			"full": "保母 ミズリ"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 12,
+		"type": "message",
+		"iconUrl": null,
+		"date": "2014-05-19T05:33:26.879Z",
+		"step": 27,
+		"day": 1,
+		"isNight": false,
+		"classType": "spectator",
+		"classCount": 2,
+		"messageOption": "normal",
+		"content": "スピードラーニング",
+		"_id": "537997a6cebd2f9d0ed536d8",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"gm",
+			"spectator"
+		],
+		"name": {
+			"first": "",
+			"last": "ジョニー",
+			"full": "ジョニー"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 12,
+		"type": "message",
+		"iconUrl": null,
+		"date": "2014-05-19T05:34:53.207Z",
+		"step": 29,
+		"day": 1,
+		"isNight": false,
+		"classType": "spectator",
+		"classCount": 3,
+		"messageOption": "normal",
+		"content": "インテグラル",
+		"_id": "537997fdcebd2f9d0ed536da",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"gm",
+			"spectator"
+		],
+		"name": {
+			"first": "",
+			"last": "ジョニー",
+			"full": "ジョニー"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:41:56.982Z",
+		"step": 32,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 14,
+		"content": "この村は終了しました。",
+		"_id": "537999a4cebd2f9d0ed536dd",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.126Z",
+		"step": 2,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 2,
+		"content": "大工 ダグラス が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536be",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 1,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/male95.png",
+		"date": "2014-05-19T05:32:55.126Z",
+		"step": 3,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 1,
+		"messageOption": "normal",
+		"content": "人狼なんて、本当にいるのかい？",
+		"_id": "53799787cebd2f9d0ed536bf",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "大工",
+			"last": "ダグラス",
+			"full": "大工 ダグラス"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.128Z",
+		"step": 4,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 3,
+		"content": "花売り ヘレナ が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536c0",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 2,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female01.png",
+		"date": "2014-05-19T05:32:55.129Z",
+		"step": 5,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 2,
+		"messageOption": "normal",
+		"content": "人狼なんて、本当にいるのかな！？",
+		"_id": "53799787cebd2f9d0ed536c1",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "花売り",
+			"last": "ヘレナ",
+			"full": "花売り ヘレナ"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.130Z",
+		"step": 6,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 4,
+		"content": "能力者 アリス が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536c2",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 3,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female02.png",
+		"date": "2014-05-19T05:32:55.131Z",
+		"step": 7,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 3,
+		"messageOption": "normal",
+		"content": "人狼…人狼…てれぱ！",
+		"_id": "53799787cebd2f9d0ed536c3",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "能力者",
+			"last": "アリス",
+			"full": "能力者 アリス"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.132Z",
+		"step": 8,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 5,
+		"content": "委員長 ナディア が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536c4",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 4,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female05.png",
+		"date": "2014-05-19T05:32:55.132Z",
+		"step": 9,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 4,
+		"messageOption": "normal",
+		"content": "人狼なんてそんな…動悸がとまりません。",
+		"_id": "53799787cebd2f9d0ed536c5",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "委員長",
+			"last": "ナディア",
+			"full": "委員長 ナディア"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.134Z",
+		"step": 10,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 6,
+		"content": "おでこ パティ が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536c6",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 5,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female06.png",
+		"date": "2014-05-19T05:32:55.134Z",
+		"step": 11,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 5,
+		"messageOption": "normal",
+		"content": "人狼は生かしておけない。",
+		"_id": "53799787cebd2f9d0ed536c7",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "おでこ",
+			"last": "パティ",
+			"full": "おでこ パティ"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.136Z",
+		"step": 12,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 7,
+		"content": "おばさん サンディ が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536c8",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 6,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female11.png",
+		"date": "2014-05-19T05:32:55.136Z",
+		"step": 13,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 6,
+		"messageOption": "normal",
+		"content": "人狼なんかいるわけあるかい、ダボが！",
+		"_id": "53799787cebd2f9d0ed536c9",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "おばさん",
+			"last": "サンディ",
+			"full": "おばさん サンディ"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.138Z",
+		"step": 14,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 8,
+		"content": "踊り子 フローレンス が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536ca",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.140Z",
+		"step": 16,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 9,
+		"content": "研究員 レイ が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536cc",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 8,
+		"type": "message",
+		"iconUrl": "http://assets.localhost.com/icons/euro/female24.png",
+		"date": "2014-05-19T05:32:55.140Z",
+		"step": 17,
+		"day": 1,
+		"isNight": false,
+		"classType": "say",
+		"classCount": 8,
+		"messageOption": "normal",
+		"content": "人狼？研究中に笑わせないでくれ。",
+		"_id": "53799787cebd2f9d0ed536cd",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"name": {
+			"first": "研究員",
+			"last": "レイ",
+			"full": "研究員 レイ"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.143Z",
+		"step": 18,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 10,
+		"content": "三等兵 リルム が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536ce",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.144Z",
+		"step": 20,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 11,
+		"content": "司書見習い アン が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536d0",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:32:55.146Z",
+		"step": 22,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 12,
+		"content": "保母 ミズリ が村を訪れました。",
+		"_id": "53799787cebd2f9d0ed536d2",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "info",
+		"date": "2014-05-19T05:33:06.554Z",
+		"step": 24,
+		"day": 1,
+		"isNight": false,
+		"classType": "info",
+		"classCount": 1,
+		"content": "player time updated",
+		"info": {
+			"lastUpdate": "2014-05-19T05:33:06.554Z",
+			"pid": 12
+		},
+		"_id": "53799792cebd2f9d0ed536d5",
+		"likes": [],
+		"quotes": [],
+		"groups": [],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": 12,
+		"type": "message",
+		"iconUrl": null,
+		"date": "2014-05-19T05:33:06.555Z",
+		"step": 25,
+		"day": 1,
+		"isNight": false,
+		"classType": "spectator",
+		"classCount": 1,
+		"messageOption": "normal",
+		"content": "あああ",
+		"_id": "53799792cebd2f9d0ed536d6",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"gm",
+			"spectator"
+		],
+		"name": {
+			"first": "",
+			"last": "ジョニー",
+			"full": "ジョニー"
+		},
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "info",
+		"date": "2014-05-19T05:33:26.878Z",
+		"step": 26,
+		"day": 1,
+		"isNight": false,
+		"classType": "info",
+		"classCount": 2,
+		"content": "player time updated",
+		"info": {
+			"lastUpdate": "2014-05-19T05:33:26.878Z",
+			"pid": 12
+		},
+		"_id": "537997a6cebd2f9d0ed536d7",
+		"likes": [],
+		"quotes": [],
+		"groups": [],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "info",
+		"date": "2014-05-19T05:34:53.207Z",
+		"step": 28,
+		"day": 1,
+		"isNight": false,
+		"classType": "info",
+		"classCount": 3,
+		"content": "player time updated",
+		"info": {
+			"lastUpdate": "2014-05-19T05:34:53.207Z",
+			"pid": 12
+		},
+		"_id": "537997fdcebd2f9d0ed536d9",
+		"likes": [],
+		"quotes": [],
+		"groups": [],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "announce",
+		"date": "2014-05-19T05:38:56.062Z",
+		"step": 30,
+		"day": 1,
+		"isNight": false,
+		"classType": "normal",
+		"classCount": 13,
+		"content": "自動終了処理が行われました。",
+		"_id": "537998f0cebd2f9d0ed536db",
+		"likes": [],
+		"quotes": [],
+		"groups": [
+			"everyone"
+		],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "info",
+		"date": "2014-05-19T05:38:56.063Z",
+		"step": 31,
+		"day": 1,
+		"isNight": false,
+		"classType": "info",
+		"classCount": 4,
+		"content": "game updated",
+		"info": {
+			"save": {
+				"players": [
+					{
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "single",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 0,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "＠未設定",
+							"jobName": "@undefined"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.119Z",
+						"_id": "53799787cebd2f9d0ed536b0",
+						"condition": {
+							"entry": false,
+							"ready": false,
+							"type": "spectator",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": null
+						},
+						"name": {
+							"first": "",
+							"last": "@undefined",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@undefined",
+							"socketId": null
+						}
+					},
+					{
+						"index": 1,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.125Z",
+						"pid": 1,
+						"_id": "53799787cebd2f9d0ed536af",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/male95.png"
+						},
+						"name": {
+							"first": "大工",
+							"last": "ダグラス",
+							"nicknames": [
+								"ダグカス"
+							]
+						},
+						"user": {
+							"name": "@dummy",
+							"socketId": null
+						}
+					},
+					{
+						"index": 2,
+						"pid": 2,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.128Z",
+						"_id": "53799787cebd2f9d0ed536b3",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female01.png"
+						},
+						"name": {
+							"first": "花売り",
+							"last": "ヘレナ",
+							"nicknames": [
+								"ヘレちん"
+							]
+						},
+						"user": {
+							"name": "@dummy1",
+							"socketId": null
+						}
+					},
+					{
+						"index": 3,
+						"pid": 3,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.130Z",
+						"_id": "53799787cebd2f9d0ed536b4",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female02.png"
+						},
+						"name": {
+							"first": "能力者",
+							"last": "アリス",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy2",
+							"socketId": null
+						}
+					},
+					{
+						"index": 4,
+						"pid": 4,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning3": [
+									"hunterMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "狩人",
+							"jobName": "hunter"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.132Z",
+						"_id": "53799787cebd2f9d0ed536b5",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female05.png"
+						},
+						"name": {
+							"first": "委員長",
+							"last": "ナディア",
+							"nicknames": [
+								"ナディ"
+							]
+						},
+						"user": {
+							"name": "@dummy3",
+							"socketId": null
+						}
+					},
+					{
+						"index": 5,
+						"pid": 5,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.133Z",
+						"_id": "53799787cebd2f9d0ed536b6",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female06.png"
+						},
+						"name": {
+							"first": "おでこ",
+							"last": "パティ",
+							"nicknames": [
+								"でこ"
+							]
+						},
+						"user": {
+							"name": "@dummy4",
+							"socketId": null
+						}
+					},
+					{
+						"index": 6,
+						"pid": 6,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.135Z",
+						"_id": "53799787cebd2f9d0ed536b7",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female11.png"
+						},
+						"name": {
+							"first": "おばさん",
+							"last": "サンディ",
+							"nicknames": [
+								"BBA"
+							]
+						},
+						"user": {
+							"name": "@dummy5",
+							"socketId": null
+						}
+					},
+					{
+						"index": 7,
+						"pid": 7,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.137Z",
+						"_id": "53799787cebd2f9d0ed536b8",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female17.png"
+						},
+						"name": {
+							"first": "踊り子",
+							"last": "フローレンス",
+							"nicknames": [
+								"フロレ"
+							]
+						},
+						"user": {
+							"name": "@dummy6",
+							"socketId": null
+						}
+					},
+					{
+						"index": 8,
+						"pid": 8,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "村人",
+							"jobName": "folk"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.139Z",
+						"_id": "53799787cebd2f9d0ed536b9",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female24.png"
+						},
+						"name": {
+							"first": "研究員",
+							"last": "レイ",
+							"nicknames": [
+								"カス"
+							]
+						},
+						"user": {
+							"name": "@dummy7",
+							"socketId": null
+						}
+					},
+					{
+						"index": 9,
+						"pid": 9,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.142Z",
+						"_id": "53799787cebd2f9d0ed536ba",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female33.png"
+						},
+						"name": {
+							"first": "三等兵",
+							"last": "リルム",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy8",
+							"socketId": null
+						}
+					},
+					{
+						"index": 10,
+						"pid": 10,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning3": [
+									"hunterMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "狩人",
+							"jobName": "hunter"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.144Z",
+						"_id": "53799787cebd2f9d0ed536bb",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female36.png"
+						},
+						"name": {
+							"first": "司書見習い",
+							"last": "アン",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy9",
+							"socketId": null
+						}
+					},
+					{
+						"index": 11,
+						"pid": 11,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "村人",
+							"jobName": "folk"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.146Z",
+						"_id": "53799787cebd2f9d0ed536bc",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female37.png"
+						},
+						"name": {
+							"first": "保母",
+							"last": "ミズリ",
+							"nicknames": [
+								"みずり"
+							]
+						},
+						"user": {
+							"name": "@dummy10",
+							"socketId": null
+						}
+					},
+					{
+						"_id": "53799789cebd2f9d0ed536d4",
+						"lastUpdate": "2014-05-19T05:34:53.207Z",
+						"pid": 12,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "single",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 0,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "＠未設定",
+							"jobName": "@undefined"
+						},
+						"condition": {
+							"entry": false,
+							"ready": false,
+							"type": "spectator",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": null
+						},
+						"name": {
+							"first": "",
+							"last": "ジョニー",
+							"nicknames": []
+						},
+						"user": {
+							"name": "ジョニー",
+							"socketId": "1tUhf4hoacC_AEmStyBl"
+						}
+					}
+				]
+			}
+		},
+		"_id": "537998f0cebd2f9d0ed536dc",
+		"likes": [],
+		"quotes": [],
+		"groups": [],
+		"__v": 0
+	},
+	{
+		"vid": 6,
+		"pid": -3,
+		"type": "info",
+		"date": "2014-05-19T05:41:56.983Z",
+		"step": 33,
+		"day": 1,
+		"isNight": false,
+		"classType": "info",
+		"classCount": 5,
+		"content": "end",
+		"info": {
+			"save": {
+				"players": [
+					{
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "single",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 0,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "＠未設定",
+							"jobName": "@undefined"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.119Z",
+						"_id": "53799787cebd2f9d0ed536b0",
+						"condition": {
+							"entry": false,
+							"ready": false,
+							"type": "spectator",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": null
+						},
+						"name": {
+							"first": "",
+							"last": "@undefined",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@undefined",
+							"socketId": null
+						}
+					},
+					{
+						"index": 1,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.125Z",
+						"pid": 1,
+						"_id": "53799787cebd2f9d0ed536af",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/male95.png"
+						},
+						"name": {
+							"first": "大工",
+							"last": "ダグラス",
+							"nicknames": [
+								"ダグカス"
+							]
+						},
+						"user": {
+							"name": "@dummy",
+							"socketId": null
+						}
+					},
+					{
+						"index": 2,
+						"pid": 2,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.128Z",
+						"_id": "53799787cebd2f9d0ed536b3",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female01.png"
+						},
+						"name": {
+							"first": "花売り",
+							"last": "ヘレナ",
+							"nicknames": [
+								"ヘレちん"
+							]
+						},
+						"user": {
+							"name": "@dummy1",
+							"socketId": null
+						}
+					},
+					{
+						"index": 3,
+						"pid": 3,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.130Z",
+						"_id": "53799787cebd2f9d0ed536b4",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female02.png"
+						},
+						"name": {
+							"first": "能力者",
+							"last": "アリス",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy2",
+							"socketId": null
+						}
+					},
+					{
+						"index": 4,
+						"pid": 4,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning3": [
+									"hunterMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "狩人",
+							"jobName": "hunter"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.132Z",
+						"_id": "53799787cebd2f9d0ed536b5",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female05.png"
+						},
+						"name": {
+							"first": "委員長",
+							"last": "ナディア",
+							"nicknames": [
+								"ナディ"
+							]
+						},
+						"user": {
+							"name": "@dummy3",
+							"socketId": null
+						}
+					},
+					{
+						"index": 5,
+						"pid": 5,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.133Z",
+						"_id": "53799787cebd2f9d0ed536b6",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female06.png"
+						},
+						"name": {
+							"first": "おでこ",
+							"last": "パティ",
+							"nicknames": [
+								"でこ"
+							]
+						},
+						"user": {
+							"name": "@dummy4",
+							"socketId": null
+						}
+					},
+					{
+						"index": 6,
+						"pid": 6,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "wolf",
+							"nightMessageOption": {
+								"jName": "遠吠え",
+								"name": "wolf"
+							},
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "exceptWolfAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"groups": [
+								"wolf"
+							],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "wolf",
+							"fortuneResult": "wolf",
+							"def": 0,
+							"str": 100,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "人狼",
+							"jobName": "wolf"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.135Z",
+						"_id": "53799787cebd2f9d0ed536b7",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female11.png"
+						},
+						"name": {
+							"first": "おばさん",
+							"last": "サンディ",
+							"nicknames": [
+								"BBA"
+							]
+						},
+						"user": {
+							"name": "@dummy5",
+							"socketId": null
+						}
+					},
+					{
+						"index": 7,
+						"pid": 7,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.137Z",
+						"_id": "53799787cebd2f9d0ed536b8",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female17.png"
+						},
+						"name": {
+							"first": "踊り子",
+							"last": "フローレンス",
+							"nicknames": [
+								"フロレ"
+							]
+						},
+						"user": {
+							"name": "@dummy6",
+							"socketId": null
+						}
+					},
+					{
+						"index": 8,
+						"pid": 8,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "村人",
+							"jobName": "folk"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.139Z",
+						"_id": "53799787cebd2f9d0ed536b9",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female24.png"
+						},
+						"name": {
+							"first": "研究員",
+							"last": "レイ",
+							"nicknames": [
+								"カス"
+							]
+						},
+						"user": {
+							"name": "@dummy7",
+							"socketId": null
+						}
+					},
+					{
+						"index": 9,
+						"pid": 9,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectSurvivor"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning0": [
+									"fortuneTellerMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "占い師",
+							"jobName": "fortuneTeller"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.142Z",
+						"_id": "53799787cebd2f9d0ed536ba",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female33.png"
+						},
+						"name": {
+							"first": "三等兵",
+							"last": "リルム",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy8",
+							"socketId": null
+						}
+					},
+					{
+						"index": 10,
+						"pid": 10,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": true,
+							"numTargets": 1,
+							"targetsCanOverlap": false,
+							"targetSelectors": {
+								"target1": "selectAfter2ndDay"
+							},
+							"vote": 0,
+							"targets": [],
+							"methods": {
+								"morning3": [
+									"hunterMorning"
+								]
+							},
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 10000,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "狩人",
+							"jobName": "hunter"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.144Z",
+						"_id": "53799787cebd2f9d0ed536bb",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female36.png"
+						},
+						"name": {
+							"first": "司書見習い",
+							"last": "アン",
+							"nicknames": []
+						},
+						"user": {
+							"name": "@dummy9",
+							"socketId": null
+						}
+					},
+					{
+						"index": 11,
+						"pid": 11,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "folk",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 100,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "村人",
+							"jobName": "folk"
+						},
+						"lastUpdate": "2014-05-19T05:32:55.146Z",
+						"_id": "53799787cebd2f9d0ed536bc",
+						"condition": {
+							"entry": true,
+							"ready": false,
+							"type": "survivor",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": "http://assets.localhost.com/icons/euro/female37.png"
+						},
+						"name": {
+							"first": "保母",
+							"last": "ミズリ",
+							"nicknames": [
+								"みずり"
+							]
+						},
+						"user": {
+							"name": "@dummy10",
+							"socketId": null
+						}
+					},
+					{
+						"_id": "53799789cebd2f9d0ed536d4",
+						"lastUpdate": "2014-05-19T05:34:53.207Z",
+						"pid": 12,
+						"status": {
+							"permitMap": {
+								"fortuneResult": [],
+								"spiritResult": [],
+								"win": [
+									"gm"
+								],
+								"jobNameJ": [
+									"gm"
+								]
+							},
+							"comingOutable": true,
+							"team": "single",
+							"nightMessageOption": null,
+							"commit": false,
+							"isCommittee": false,
+							"numTargets": 0,
+							"targetsCanOverlap": false,
+							"targetSelectors": null,
+							"vote": 0,
+							"targets": [],
+							"groups": [],
+							"ballots": 1,
+							"successRate": 100,
+							"spiritResult": "human",
+							"fortuneResult": "human",
+							"def": 0,
+							"str": 0,
+							"cp": 0,
+							"hp": 0,
+							"win": 0,
+							"dead": 0,
+							"sid": 0,
+							"jobNameJ": "＠未設定",
+							"jobName": "@undefined"
+						},
+						"condition": {
+							"entry": false,
+							"ready": false,
+							"type": "spectator",
+							"day": 0,
+							"vote": 0
+						},
+						"icon": {
+							"gender": "unknown",
+							"options": [],
+							"suffix": ".png",
+							"url": null
+						},
+						"name": {
+							"first": "",
+							"last": "ジョニー",
+							"nicknames": []
+						},
+						"user": {
+							"name": "ジョニー",
+							"socketId": "1tUhf4hoacC_AEmStyBl"
+						}
+					}
+				]
+			}
+		},
+		"_id": "537999a4cebd2f9d0ed536de",
+		"likes": [],
+		"quotes": [],
+		"groups": [],
+		"__v": 0
+	}
+]

@@ -1,0 +1,26 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_PATH=lib NODE_ENV=development node app.js"
+  },
+  "dependencies": {
+    "express": "3.5.1",
+    "ejs": "*",
+    "less-middleware": "~0.1.15",
+    "mongodb": "^1.4.0",
+    "mongoose": "^3.8.8",
+    "async": "^0.7.0",
+    "crypt3": "^0.1.4",
+    "validator": "^3.9.0",
+    "passport": "^0.2.0",
+    "connect": "^2.14.4",
+    "session-mongoose": "^0.4.1",
+    "connect-redis": "1.4.7",
+    "connect-flash": "^0.1.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^0.9.16",
+    "passport.socketio": "^3.0.1"
+  }
+}

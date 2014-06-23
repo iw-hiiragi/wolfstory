@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja" ng-app="indexApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="fragment" content="!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>狼物語 - 汝は人狼なりや？</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+<div id="index-wrapper" ng-controller="AjaxPageController" ng-init="flashError='<%=error%>';setLogin(<%=logged_in%>);username='<%=username%>'">
+
+  <div class="navigator" ng-controller="NavigatorController">
+    狼物語 ver0.0.1α
+    <ul>
+      <li ng-repeat="menu in menuList | filter:loggedIn">
+        <a ng-if="menu.sref" ui-sref="{{ menu.sref }}">{{ menu.title }}</a>
+        <a ng-if="menu.href" href="{{ menu.href }}" target="_self">{{ menu.title }}</a>
+      </li>
+    </ul>
+  </div>
+
+  <div ui-view>
+    now loading...
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-animate.min.js"></script>
+  <script src="/javascripts/ui-bootstrap.min.js"></script>
+  <script src="/javascripts/angular-ui-router.min.js"></script>
+  <script src="/javascripts/modules/editVillage.js"></script>
+  <script src="/javascripts/index.js"></script>
+</div>
+</body>
+</html>
