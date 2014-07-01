@@ -189,13 +189,12 @@ VillageSchema.virtual('room').get(function(){
 });
 
 VillageSchema.pre('save', function(next) {
-
-  var inv = this.inventory_ || null;
-  var broadcast = this.broadcast_ || findBroadcastMethod(this.vid) || null;
+  var inv = this.inventory_ || [];
+  var broadcast = this.broadcast_ || findBroadcastMethod(this.vid) || (function(){});
   var _this = this;
 
   // 追加ログが存在する場合
-  if (inv && inv.length > 0) {
+  if (inv.length > 0) {
     var len = inv.length;
     var index = 0;
 
